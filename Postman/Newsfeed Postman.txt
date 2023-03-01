@@ -1,0 +1,28 @@
+NewsFeed Postman
+API: http://localhost:8088/news/add
+
+ {
+        "newsFeedId": 1,
+        "newsName": "Axis Home Loan",
+        "newsImageUrl": "https://i.ytimg.com/vi/Y04La2oVhWQ/maxresdefault.jpg",
+        "newsDescription": "Our affordable and flexible home loans are designed to take you closer to your dream home. Our Home Loan affordability calculator is based on your requirements, such as tenure, loan amount and interest rates to give you an estimate of your EMI.",
+        "comments": [
+            {
+                "commentId": 1,
+                "message": "Nice",
+                "name": "Sandeep Maheshwari"
+            },
+            {
+                "commentId": 2,
+                "message": "Good",
+                "name": "Saniya Shaikh"
+            }
+        ]
+    },
+    {
+        "newsFeedId": 3,
+        "newsName": "Axis Stock News",
+        "newsImageUrl": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202109/markets-2-sixteen_nine.jpg?size=948:533",
+        "newsDescription": "Axis Bank tops rupee bond league table for the 16th year in a row. While Axis Bank's market share marginally declined in 2022 from 19.37 per cent in 2021, it increased from Rs 80,798 crore in 2021 in value terms.",
+        "comments": []
+    }

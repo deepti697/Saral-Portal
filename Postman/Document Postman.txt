@@ -1,0 +1,148 @@
+1.Documents
+================
+
+1. Salaryslip Inputs
+API: http://localhost:8087/salaryslip/add
+
+[
+ {
+        "salaryId": 1,
+        "currentDate": "2023-01-19",
+        "monthDate": "2023-01-19",
+        "salaryAmount": 50000,
+        "basicPay": 20000,
+        "allowance": 10000,
+        "pfContribution": 3000,
+        "locationPay": 10000,
+        "benefitsPay": 10000,
+        "employeeId": "EMP1"
+    },
+    {
+        "salaryId": 2,
+        "currentDate": "2023-01-19",
+        "monthDate": "2023-01-19",
+        "salaryAmount": 50000,
+        "basicPay": 20000,
+        "allowance": 10000,
+        "pfContribution": 3000,
+        "locationPay": 10000,
+        "benefitsPay": 10000,
+        "employeeId": "EMP2"
+    },
+    {
+        "salaryId": 3,
+        "currentDate": "2023-01-19",
+        "monthDate": "2023-01-19",
+        "salaryAmount": 50000,
+        "basicPay": 20000,
+        "allowance": 10000,
+        "pfContribution": 3000,
+        "locationPay": 10000,
+        "benefitsPay": 10000,
+        "employeeId": "EMP3"
+    },
+    {
+        "salaryId": 4,
+        "currentDate": "2023-01-19",
+        "monthDate": "2023-01-19",
+        "salaryAmount": 50000,
+        "basicPay": 20000,
+        "allowance": 10000,
+        "pfContribution": 3000,
+        "locationPay": 10000,
+        "benefitsPay": 10000,
+        "employeeId": "EMP4"
+    },
+    {
+        "salaryId": 6,
+        "currentDate": "2023-01-19",
+        "monthDate": "2023-01-19",
+        "salaryAmount": 50000,
+        "basicPay": 20000,
+        "allowance": 10000,
+        "pfContribution": 3000,
+        "locationPay": 10000,
+        "benefitsPay": 10500,
+        "employeeId": "EMP5"
+    }
+]
+
+2. Joining Letter
+API:  http://localhost:8087/joiningLetter/add
+
+   [
+    {
+        "joiningId": 1,
+        "dateOfJoining": "2023-02-12",
+        "employeeId": "EMP1"
+    },
+    {
+        "joiningId": 2,
+        "dateOfJoining": "2023-02-13",
+        "employeeId": "EMP2"
+    },
+    {
+        "joiningId": 3,
+        "dateOfJoining": "2023-02-14",
+        "employeeId": "EMP3"
+    },
+    {
+        "joiningId": 4,
+        "dateOfJoining": "2023-02-15",
+        "employeeId": "EMP4"
+    }
+]
+
+
+
+3. Appointment Letter
+API:  http://localhost:8087/appointment/add
+
+[
+    {
+        "appointId": 1,
+        "currentDate": "2023-01-19",
+        "appointmentDate": "2023-01-25",
+        "employeeId": "EMP1"
+    },
+    {
+        "appointId": 2,
+        "currentDate": "2023-01-19",
+        "appointmentDate": "2023-01-22",
+        "employeeId": "EMP2"
+    },
+    {
+        "appointId": 3,
+        "currentDate": "2023-01-19",
+        "appointmentDate": "2023-01-23",
+        "employeeId": "EMP3"
+    }
+]
+
+
+
+4. Increament Letter
+API: http://localhost:8087/increment/add
+  [
+     {
+        "incrementId": 1,
+        "currentDate": "2023-02-19",
+        "month": "September",
+        "incrementPercent": 5.0,
+        "employeeId": "EMP1"
+    },
+    {
+        "incrementId": 2,
+        "currentDate": "2023-02-19",
+        "month": "June",
+        "incrementPercent": 4.0,
+        "employeeId": "EMP2"
+    },
+    {
+        "incrementId": 3,
+        "currentDate": "2023-02-19",
+        "month": "August",
+        "incrementPercent": 5.0,
+        "employeeId": "EMP3"
+    }
+]

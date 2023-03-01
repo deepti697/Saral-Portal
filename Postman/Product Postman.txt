@@ -1,0 +1,20 @@
+Product Postman:
+
+{
+        "productId": 1,
+        "productName": "Axis Platinum Rupay Card",
+        "productDescription": "Axis card with debit limit upto 1.5 Lacks  per day.",
+        "imageUrl": "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/03/28/80052-rupay-website.png?itok=DyBjn9bf"
+    },
+    {
+        "productId": 2,
+        "productName": "Axis Debit Card",
+        "productDescription": "Axis debit with debit limit upto 1.5 Lacks  per day.",
+        "imageUrl": "https://images.moneycontrol.com/static-mcnews/2022/03/AXIS-BANK-ACE-CREDIT-CARD.jpg?impolicy=website&width=1600&height=900"
+    },
+    {
+        "productId": 3,
+        "productName": "Axis Credit Card",
+        "productDescription": "Axis card with debit limit upto 1.5 Lacks  per day.",
+        "imageUrl": "https://cdn.zeebiz.com/sites/default/files/2019/08/28/99259-firstdigital-credit-card.png"
+    }

@@ -1,0 +1,648 @@
+1.Employee Postman
+API: http://localhost:8085/employee/add
+[
+ {
+        "employeeId": "EMP1",
+        "employeeName": "Harsh Singh",
+        "emailId": "harshsingh@gmail.com",
+        "mobileNo": 7800801983,
+        "designation": "IT Deputy Manager",
+        "password": "Harsh@123",
+        "projectId": "PAB9P6",
+        "managerId": "MAB97",
+        "workingStatus": true,
+        "profile": "https://t4.ftcdn.net/jpg/02/97/24/51/240_F_297245133_gBPfK0h10UM3y7vfoEiBC3ZXt559KZar.jpg",
+        "manager": {
+            "managerId": "MAB91",
+            "managerName": "Sandeep Maheshwari",
+            "designation": "IT Manager",
+            "emailId": "sandeep@axis.com",
+            "mobileNo": 8529647532,
+            "password": "Sandeep@123",
+            "profile": "https://png.pngtree.com/png-vector/20220709/ourlarge/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+        },
+        "project": {
+            "projectId": "PAB9P6",
+            "projectName": "Axis FastTrack Application",
+            "managerId": "MAB97",
+            "projectDescription": "Axis FastTrack application gives central place to optimally manager your payment histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID7",
+                    "stakeholderName": "Ratan Tata",
+                    "stakeholderEmail": "ratan@gmail.com",
+                    "stakeholderMobileNo": 9695949893,
+                    "stakeholderPosition": "Managing Director"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP15",
+                    "employeeName": "Sunil Mukharji",
+                    "emailId": "sunil@gmail.com",
+                    "mobileNo": 9496959897,
+                    "designation": "IT Support",
+                    "password": "SunilM#423"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB96",
+                    "managerName": "Ajay Nagar",
+                    "designation": "IT Manager",
+                    "emailId": "ajay@axis.com",
+                    "mobileNo": 8584868789,
+                    "password": "Ajay@123",
+                    "profile": "https://as1.ftcdn.net/v2/jpg/02/42/00/04/1000_F_242000451_i5W8qBEWBw5hthTWgPTogYYl8qxIX4f5.jpg"
+                },
+                {
+                    "managerId": "MAB97",
+                    "managerName": "Anisha Chanchlani",
+                    "designation": "IT Manager",
+                    "emailId": "anisha@axis.com",
+                    "mobileNo": 7544989695,
+                    "password": "Anisha@123",
+                    "profile": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "employeeId": "EMP2",
+        "employeeName": "Rohit Chawhan",
+        "emailId": "rohitchawan@gmail.com",
+        "mobileNo": 9685878454,
+        "designation": "IT Deputy Manager",
+        "password": "Rohit@123",
+        "projectId": "PAB9P4",
+        "managerId": "MAB92",
+        "workingStatus": true,
+        "profile": "https://t4.ftcdn.net/jpg/04/43/76/95/240_F_443769563_XLcCTl78ajnm9VS6kEWFIEMHRMUdm26Z.jpg",
+        "manager": {
+            "managerId": "MAB92",
+            "managerName": "Sanjay Raut",
+            "designation": "IT Manager",
+            "emailId": "sanjayraut@axis.com",
+            "mobileNo": 8956234586,
+            "password": "Sanjay@123",
+            "profile": "https://as2.ftcdn.net/v2/jpg/03/07/57/35/1000_F_307573513_Tfy0Uxi7doNQMu4sU68OGFLZoENqLF5e.jpg"
+        },
+        "project": {
+            "projectId": "PAB9P4",
+            "projectName": "Axis Home Loan Application",
+            "managerId": "MAB92",
+            "projectDescription": "Axis credit card application gives central place to optimally manager your credit histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID5",
+                    "stakeholderName": "Gutam Kadam",
+                    "stakeholderEmail": "guatam@gmail.com",
+                    "stakeholderMobileNo": 7998445625,
+                    "stakeholderPosition": "Director Member"
+                },
+                {
+                    "stakeholderId": "SHID6",
+                    "stakeholderName": "Krisha More",
+                    "stakeholderEmail": "Krisha@gmail.com",
+                    "stakeholderMobileNo": 7998436625,
+                    "stakeholderPosition": "CTO"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP11",
+                    "employeeName": "Roshan Singh Sodhi",
+                    "emailId": "roshan@gmail.com",
+                    "mobileNo": 8888977989,
+                    "designation": "IT Support",
+                    "password": "Roshan@123"
+                },
+                {
+                    "employeeId": "EMP12",
+                    "employeeName": "Taarak Mehta",
+                    "emailId": "mehta@gmail.com",
+                    "mobileNo": 7654977989,
+                    "designation": "IT Support",
+                    "password": "Taarak@123"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB93",
+                    "managerName": "Saniya Shaikh",
+                    "designation": "IT Manager",
+                    "emailId": "saniyashaikh@axis.com",
+                    "mobileNo": 9658879459,
+                    "password": "Saniya@123",
+                    "profile": "https://img.freepik.com/free-photo/portrait-female-teacher-white_114579-77739.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "employeeId": "EMP3",
+        "employeeName": "Mohit Kataria",
+        "emailId": "mohitkataria5555@gmail.com",
+        "mobileNo": 8901101883,
+        "designation": "IT Deputy Manager",
+        "password": "Mohit@123",
+        "projectId": "PAB9P7",
+        "managerId": "MAB97",
+        "workingStatus": true,
+        "profile": "https://as2.ftcdn.net/v2/jpg/02/86/91/07/1000_F_286910741_dEPor2CrJ4Xi4ciDmvYgwWUBsEIVETJh.jpg",
+        "manager": {
+            "managerId": "MAB94",
+            "managerName": "Tanmay Bhatt",
+            "designation": "IT Manager",
+            "emailId": "tanmay@axis.com",
+            "mobileNo": 7656259586,
+            "password": "Tanmay@123",
+            "profile": "https://as2.ftcdn.net/v2/jpg/03/25/73/59/1000_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg"
+        },
+        "project": {
+            "projectId": "PAB9P7",
+            "projectName": "Axis Stock Application",
+            "managerId": "MAB95",
+            "projectDescription": "Axis stock application gives central place to optimally manager your payment histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID4",
+                    "stakeholderName": "Mukesh Amala",
+                    "stakeholderEmail": "mukesh@gmail.com",
+                    "stakeholderMobileNo": 7998635625,
+                    "stakeholderPosition": "Committee Member"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP13",
+                    "employeeName": "Kaushik Gupta",
+                    "emailId": "kaushik@gmail.com",
+                    "mobileNo": 7658777794,
+                    "designation": "IT Support",
+                    "password": "Kaushik@123"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB95",
+                    "managerName": "Samyukta Bhatt",
+                    "designation": "IT Manager",
+                    "emailId": "samyukta@axis.com",
+                    "mobileNo": 7656259586,
+                    "password": "Samyukta@123",
+                    "profile": "https://as2.ftcdn.net/v2/jpg/02/12/52/89/1000_F_212528953_fw6OrqAfZq9ii4Qbxxa9fBjxhh5eiAcD.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "employeeId": "EMP4",
+        "employeeName": "Kumar Sundram",
+        "emailId": "ksundram620@gmail.com",
+        "mobileNo": 8901101883,
+        "designation": "IT Deputy Manager",
+        "password": "Kumar@123",
+        "projectId": "PAB9P7",
+        "managerId": "MAB97",
+        "workingStatus": true,
+        "profile": "https://as2.ftcdn.net/v2/jpg/01/34/51/81/1000_F_134518160_5DyP0y6YqXQgG6FdorIvpk7M6CBNrglm.jpg",
+        "manager": {
+            "managerId": "MAB94",
+            "managerName": "Tanmay Bhatt",
+            "designation": "IT Manager",
+            "emailId": "tanmay@axis.com",
+            "mobileNo": 7656259586,
+            "password": "Tanmay@123",
+            "profile": "https://as2.ftcdn.net/v2/jpg/03/25/73/59/1000_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg"
+        },
+        "project": {
+            "projectId": "PAB9P7",
+            "projectName": "Axis Stock Application",
+            "managerId": "MAB95",
+            "projectDescription": "Axis stock application gives central place to optimally manager your payment histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID4",
+                    "stakeholderName": "Mukesh Amala",
+                    "stakeholderEmail": "mukesh@gmail.com",
+                    "stakeholderMobileNo": 7998635625,
+                    "stakeholderPosition": "Committee Member"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP13",
+                    "employeeName": "Kaushik Gupta",
+                    "emailId": "kaushik@gmail.com",
+                    "mobileNo": 7658777794,
+                    "designation": "IT Support",
+                    "password": "Kaushik@123"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB95",
+                    "managerName": "Samyukta Bhatt",
+                    "designation": "IT Manager",
+                    "emailId": "samyukta@axis.com",
+                    "mobileNo": 7656259586,
+                    "password": "Samyukta@123",
+                    "profile": "https://as2.ftcdn.net/v2/jpg/02/12/52/89/1000_F_212528953_fw6OrqAfZq9ii4Qbxxa9fBjxhh5eiAcD.jpg"
+                }
+            ]
+        }
+    }
+]
+
+2.Manager Postman
+API: http://localhost:8085/manager/add
+
+ {
+            "managerId": "MAB91",
+            "managerName": "Sandeep Maheshwari",
+            "designation": "IT Manager",
+            "emailId": "sandeep@axis.com",
+            "mobileNo": 8529647532,
+            "password": "Sandeep@123",
+            "profile": "https://png.pngtree.com/png-vector/20220709/ourlarge/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+        },
+
+    {
+            "managerId": "MAB92",
+            "managerName": "Sanjay Raut",
+            "designation": "IT Manager",
+            "emailId": "sanjayraut@axis.com",
+            "mobileNo": 8956234586,
+            "password": "Sanjay@123",
+            "profile": "https://as2.ftcdn.net/v2/jpg/03/07/57/35/1000_F_307573513_Tfy0Uxi7doNQMu4sU68OGFLZoENqLF5e.jpg"
+        },
+       
+                {
+                    "managerId": "MAB93",
+                    "managerName": "Saniya Shaikh",
+                    "designation": "IT Manager",
+                    "emailId": "saniyashaikh@axis.com",
+                    "mobileNo": 9658879459,
+                    "password": "Saniya@123",
+                    "profile": "https://img.freepik.com/free-photo/portrait-female-teacher-white_114579-77739.jpg"
+                }
+    
+         {
+            "managerId": "MAB94",
+            "managerName": "Tanmay Bhatt",
+            "designation": "IT Manager",
+            "emailId": "tanmay@axis.com",
+            "mobileNo": 7656259586,
+            "password": "Tanmay@123",
+            "profile": "https://as2.ftcdn.net/v2/jpg/03/25/73/59/1000_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg"
+        },
+     
+                {
+                    "managerId": "MAB95",
+                    "managerName": "Samyukta Bhatt",
+                    "designation": "IT Manager",
+                    "emailId": "samyukta@axis.com",
+                    "mobileNo": 7656259586,
+                    "password": "Samyukta@123",
+                    "profile": "https://as2.ftcdn.net/v2/jpg/02/12/52/89/1000_F_212528953_fw6OrqAfZq9ii4Qbxxa9fBjxhh5eiAcD.jpg"
+                }
+                    {
+                    "managerId": "MAB96",
+                    "managerName": "Ajay Nagar",
+                    "designation": "IT Manager",
+                    "emailId": "ajay@axis.com",
+                    "mobileNo": 8584868789,
+                    "password": "Ajay@123",
+                    "profile": "https://as1.ftcdn.net/v2/jpg/02/42/00/04/1000_F_242000451_i5W8qBEWBw5hthTWgPTogYYl8qxIX4f5.jpg"
+                },
+                {
+                    "managerId": "MAB97",
+                    "managerName": "Anisha Chanchlani",
+                    "designation": "IT Manager",
+                    "emailId": "anisha@axis.com",
+                    "mobileNo": 7544989695,
+                    "password": "Anisha@123",
+                    "profile": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg"
+                }
+
+3.Project Postman
+API: http://localhost:8085/project/add
+
+{
+            "projectId": "PAB9P4",
+            "projectName": "Axis Home Loan Application",
+            "managerId": "MAB92",
+            "projectDescription": "Axis credit card application gives central place to optimally manager your credit histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID5",
+                    "stakeholderName": "Gutam Kadam",
+                    "stakeholderEmail": "guatam@gmail.com",
+                    "stakeholderMobileNo": 7998445625,
+                    "stakeholderPosition": "Director Member"
+                },
+                {
+                    "stakeholderId": "SHID6",
+                    "stakeholderName": "Krisha More",
+                    "stakeholderEmail": "Krisha@gmail.com",
+                    "stakeholderMobileNo": 7998436625,
+                    "stakeholderPosition": "CTO"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP11",
+                    "employeeName": "Roshan Singh Sodhi",
+                    "emailId": "roshan@gmail.com",
+                    "mobileNo": 8888977989,
+                    "designation": "IT Support",
+                    "password": "Roshan@123"
+                },
+                {
+                    "employeeId": "EMP12",
+                    "employeeName": "Taarak Mehta",
+                    "emailId": "mehta@gmail.com",
+                    "mobileNo": 7654977989,
+                    "designation": "IT Support",
+                    "password": "Taarak@123"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB93",
+                    "managerName": "Saniya Shaikh",
+                    "designation": "IT Manager",
+                    "emailId": "saniyashaikh@axis.com",
+                    "mobileNo": 9658879459,
+                    "password": "Saniya@123",
+                    "profile": "https://img.freepik.com/free-photo/portrait-female-teacher-white_114579-77739.jpg"
+                }
+            ]
+ },
+ {
+            "projectId": "PAB9P6",
+            "projectName": "Axis FastTrack Application",
+            "managerId": "MAB97",
+            "projectDescription": "Axis FastTrack application gives central place to optimally manager your payment histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID7",
+                    "stakeholderName": "Ratan Tata",
+                    "stakeholderEmail": "ratan@gmail.com",
+                    "stakeholderMobileNo": 9695949893,
+                    "stakeholderPosition": "Managing Director"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP15",
+                    "employeeName": "Sunil Mukharji",
+                    "emailId": "sunil@gmail.com",
+                    "mobileNo": 9496959897,
+                    "designation": "IT Support",
+                    "password": "SunilM#423"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB96",
+                    "managerName": "Ajay Nagar",
+                    "designation": "IT Manager",
+                    "emailId": "ajay@axis.com",
+                    "mobileNo": 8584868789,
+                    "password": "Ajay@123",
+                    "profile": "https://as1.ftcdn.net/v2/jpg/02/42/00/04/1000_F_242000451_i5W8qBEWBw5hthTWgPTogYYl8qxIX4f5.jpg"
+                },
+                {
+                    "managerId": "MAB97",
+                    "managerName": "Anisha Chanchlani",
+                    "designation": "IT Manager",
+                    "emailId": "anisha@axis.com",
+                    "mobileNo": 7544989695,
+                    "password": "Anisha@123",
+                    "profile": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg"
+                }
+            ]
+ },
+ 
+            "projectId": "PAB9P7",
+            "projectName": "Axis Stock Application",
+            "managerId": "MAB95",
+            "projectDescription": "Axis stock application gives central place to optimally manager your payment histroty with advanced functionalities.",
+            "stakeholder": [
+                {
+                    "stakeholderId": "SHID4",
+                    "stakeholderName": "Mukesh Amala",
+                    "stakeholderEmail": "mukesh@gmail.com",
+                    "stakeholderMobileNo": 7998635625,
+                    "stakeholderPosition": "Committee Member"
+                }
+            ],
+            "supportTeamList": [
+                {
+                    "employeeId": "EMP13",
+                    "employeeName": "Kaushik Gupta",
+                    "emailId": "kaushik@gmail.com",
+                    "mobileNo": 7658777794,
+                    "designation": "IT Support",
+                    "password": "Kaushik@123"
+                }
+            ],
+            "managerList": [
+                {
+                    "managerId": "MAB95",
+                    "managerName": "Samyukta Bhatt",
+                    "designation": "IT Manager",
+                    "emailId": "samyukta@axis.com",
+                    "mobileNo": 7656259586,
+                    "password": "Samyukta@123",
+                    "profile": "https://as2.ftcdn.net/v2/jpg/02/12/52/89/1000_F_212528953_fw6OrqAfZq9ii4Qbxxa9fBjxhh5eiAcD.jpg"
+                }
+            ]
+},
+    {
+        "projectId": "PAB9P3",
+        "projectName": "Axis Credit Card Application",
+        "managerId": "MAB94",
+        "projectDescription": "Axis credit card application gives central place to optimally manager your credit histroty with advanced functionalities.",
+        "stakeholder": [
+            {
+                "stakeholderId": "SHID8",
+                "stakeholderName": "Harsh Mehta",
+                "stakeholderEmail": "harsh@gmail.com",
+                "stakeholderMobileNo": 7995536625,
+                "stakeholderPosition": "CTO"
+            }
+        ],
+        "supportTeamList": [
+            {
+                "employeeId": "EMP16",
+                "employeeName": "Sunny Jadhav",
+                "emailId": "snuuy@gmail.com",
+                "mobileNo": 8559679694,
+                "designation": "IT Support",
+                "password": "SunnyM#423"
+            }
+        ],
+        "managerList": [
+            {
+                "managerId": "MAB94",
+                "managerName": "Tanmay Bhatt",
+                "designation": "IT Manager",
+                "emailId": "tanmay@axis.com",
+                "mobileNo": 7656259586,
+                "password": "Tanmay@94",
+                "profile": "https://png.pngtree.com/png-vector/20220709/ourlarge/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+            }
+        ]
+    },
+    {
+        "projectId": "PAB9P9",
+        "projectName": "AXIS SARAL",
+        "managerId": "MAB91",
+        "projectDescription": "Axis ASARAL",
+        "stakeholder": [],
+        "supportTeamList": [],
+        "managerList": [
+            {
+                "managerId": "MAB91",
+                "managerName": "Sandeep Kuldeep",
+                "designation": "IT Manager",
+                "emailId": "sandeepkuldeep@axis.com",
+                "mobileNo": 8956234586,
+                "password": "Sandeep@11",
+                "profile": "https://png.pngtree.com/png-vector/20220709/ourlarge/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+            }
+        ]
+    }
+
+4. Stakeholder Postman
+API:  http://localhost:8085/stakeholder/add
+[
+                {
+                    "stakeholderId": "SHID4",
+                    "stakeholderName": "Mukesh Amala",
+                    "stakeholderEmail": "mukesh@gmail.com",
+                    "stakeholderMobileNo": 7998635625,
+                    "stakeholderPosition": "Committee Member"
+                },
+                {
+                    "stakeholderId": "SHID5",
+                    "stakeholderName": "Gutam Kadam",
+                    "stakeholderEmail": "guatam@gmail.com",
+                    "stakeholderMobileNo": 7998445625,
+                    "stakeholderPosition": "Director Member"
+                },
+                {
+                    "stakeholderId": "SHID6",
+                    "stakeholderName": "Krisha More",
+                    "stakeholderEmail": "Krisha@gmail.com",
+                    "stakeholderMobileNo": 7998436625,
+                    "stakeholderPosition": "CTO"
+                },
+                {
+                    "stakeholderId": "SHID7",
+                    "stakeholderName": "Ratan Tata",
+                    "stakeholderEmail": "ratan@gmail.com",
+                    "stakeholderMobileNo": 9695949893,
+                    "stakeholderPosition": "Managing Director"
+                },
+                {
+                "stakeholderId": "SHID8",
+                "stakeholderName": "Harsh Mehta",
+                "stakeholderEmail": "harsh@gmail.com",
+                "stakeholderMobileNo": 7995536625,
+                "stakeholderPosition": "CTO"
+                 }
+ ]
+
+5.Support Team Postman
+API:  http://localhost:8085/stmember/add
+
+
+               
+                {
+                    "employeeId": "EMP11",
+                    "employeeName": "Roshan Singh",
+                    "emailId": "roshan@gmail.com",
+                    "mobileNo": 8888977989,
+                    "designation": "IT Support",
+                    "password": "Roshan@123",
+                    "profile":"https://img.freepik.com/free-photo/young-male-entrepreneur-making-eye-contact-against-blue-background_662251-739.jpg?w=740&t=st=1676142849~exp=1676143449~hmac=3ca66629b448183688637040c2a633c88eae8c25c6ed6145fcdd1fa1d91c8d1b"
+                },
+                {
+                    "employeeId": "EMP12",
+                    "employeeName": "Taarak Mehta",
+                    "emailId": "mehta@gmail.com",
+                    "mobileNo": 7654977989,
+                    "designation": "IT Support",
+                    "password": "Taarak@123",
+                    "profile":"https://thumbs.dreamstime.com/b/asian-male-smiling-portrait-handsome-young-man-casual-business-attire-confidently-arms-crossed-standing-isolated-41652795.jpg"
+                },
+                {
+                    "employeeId": "EMP15",
+                    "employeeName": "Sunil Mukharji",
+                    "emailId": "sunil@gmail.com",
+                    "mobileNo": 9496959897,
+                    "designation": "IT Support",
+                    "password": "SunilM#423",
+                    "profile":"https://tse2.mm.bing.net/th?id=OIP.jAEnONxlpsGr8oF6yPHI9QHaHZ&pid=Api&P=0"
+                },
+                {
+                    "employeeId": "EMP13",
+                    "employeeName": "Kaushik Gupta",
+                    "emailId": "kaushik@gmail.com",
+                    "mobileNo": 7658777794,
+                    "designation": "IT Support",
+                    "password": "Kaushik@123",
+                    "profile":"https://tse4.mm.bing.net/th?id=OIP.cNjN7iDp0C2jLG9CUCebHwHaLI&pid=Api&P=0"
+                },
+                {
+                "employeeId": "EMP16",
+                "employeeName": "Sunny Jadhav",
+                "emailId": "snuuy@gmail.com",
+                "mobileNo": 8559679694,
+                "designation": "IT Support",
+                "password": "SunnyM#423",
+                "profile":"https://www.indiafilings.com/images/esi-registration.png"
+              },
+               {
+        "employeeId": "EMP17",
+        "employeeName": "Pravin Yewale",
+        "emailId": "pravin@gmail.com",
+        "mobileNo": 8559679334,
+        "designation": "IT Support",
+        "password": "Pravin@123",
+        "profile":"https://media.licdn.com/dms/image/C4E03AQG4U2twHsWfaw/profile-displayphoto-shrink_800_800/0/1599835120515?e=1681344000&v=beta&t=ibnh96nMGvmFuCVoIdh6kLoEQ6TOeCuBotNeRtJYU5I"
+    }
+
+
+6.Opportunities Postman
+API: http://localhost:8085/opportunity/add
+{
+        "projectId": "PABP4",
+        "projectDesignation": "Software Engineer",
+        "projectDomain": "Software Developer",
+        "projectDuration": "12 months",
+        "projectManagerId": "MAB910",
+        "salary": 80000,
+        "location": "Mumbai-Worli",
+        "description": "E-Commerce project Development for Axis Bank"
+    },
+    {
+        "projectId": "PABP5",
+        "projectDesignation": "Software Engineer II",
+        "projectDomain": "Software Developer",
+        "projectDuration": "16 months",
+        "projectManagerId": "MAB911",
+        "salary": 85000,
+        "location": "Mumbai-Andheri",
+        "description": "Home loan project Development for Axis Bank"
+    }
+       
+
+
+
+
+ 

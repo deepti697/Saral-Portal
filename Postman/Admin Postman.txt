@@ -1,0 +1,6 @@
+1) Add Admin
+API-  http://localhost:5001/admin
+{
+    "adminEmailId": "admin@saral.com",
+    "adminpassword":"Admin@8086"
+}
