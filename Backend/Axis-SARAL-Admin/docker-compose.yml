@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  api_service:
+    build: .
+    restart: always
+    ports:
+      - 8086:8086
+    depends_on:
+      - mysql_db
+
+  mysql_db:
+    image: "mysql:latest"
+    restart: always
+    environment:
+      MYSQL_DATABASE: axis_saral
+      MYSQL_USER: axis
+      MYSQL_PASSWORD: axis1
+      MYSQL_ROOT_PASSWORD: vikas
