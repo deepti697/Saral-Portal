@@ -1,0 +1,49 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: API_GATEWAY
+  cloud:
+    gateway:
+      routes:
+#      - id: SARAL-ADMIN-SERVICE
+#        uri: 
+#            lb://SARAL-ADMIN-SERVICE
+#        predicates:
+#        - Path=/#/** 
+#      - id: SARAL-ADMIN_SECURITY-SERVICE
+#        uri: 
+#            lb://SARAL-ADMIN_SECURITY-SERVICE
+#        predicates:
+#        - Path=/#/** 
+#      - id: SARAL-DOCUMENTS-SERVICE
+#        uri: 
+#            lb://SARAL-DOCUMENTS-SERVICE
+#        predicates:
+#        - Path=/#/**
+#      - id: SARAL-EMAIL-SERVICE
+#        uri: 
+#            lb://SARAL-EMAIL-SERVICE
+#        predicates:
+#        - Path=/#/**
+#      - id: SARAL-LEARNING-SERVICE
+#        uri: 
+#            lb://SARAL-LEARNING-SERVICE
+#        predicates:
+#        - Path=/#/** 
+#      - id: SARAL-NEWSFEED-SERVICE
+#        uri: 
+#            lb://SARAL-NEWSFEED-SERVICE
+#        predicates:
+#        - Path=/#/** 
+      - id: SARAL-STORAGE-SERVICE
+        uri: 
+            lb://SARAL-STORAGE-SERVICE
+        predicates:
+        - Path=/api/pdf/** 
+      
+        
+
+
+
