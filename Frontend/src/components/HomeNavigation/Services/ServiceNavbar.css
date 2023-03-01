@@ -1,0 +1,11 @@
+.productNav {
+    z-index: 5;
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  
+.accfont{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

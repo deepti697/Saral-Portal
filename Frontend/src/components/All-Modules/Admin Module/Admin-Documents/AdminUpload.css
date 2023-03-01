@@ -1,0 +1,23 @@
+.adminUpload {
+  width: 20%;
+  height: 40%;
+  /* align-items: center;
+  justify-content: center; */
+  border: solid black 1px;
+  margin-left: 20px;
+  
+  margin-top: 20px;
+  
+}
+
+.adminUploadMain {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.font{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,59 @@
+.projectclass {
+  color: black;
+}
+
+.projectclass:hover {
+  background-color: #002d64;
+  color: white;
+}
+
+.projectButton {
+  color: white;
+  /* text-decoration: none; */
+  border: 1px;
+  width: 150px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #002d64;
+  transition: 0.2s;
+}
+
+.projectButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.divflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12%;
+  margin-right: 15%;
+}
+
+.projectCard {
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  height: 2000px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+/* .cardHeader {
+  width: 200px;
+  text-align: center;
+  height: 75px;
+  font-weight: bold;
+  text-transform: uppercase;
+} */
+
+.cardHeader{
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 80px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.italic{
+ font-style: italic;
+}

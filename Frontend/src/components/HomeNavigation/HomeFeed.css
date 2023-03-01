@@ -1,0 +1,28 @@
+.homefeed {
+  top: 0;
+}
+
+.nav.default-nav {
+  display: none;
+}
+
+
+/* Slider indicator */
+.indicator{
+  width: 100%;
+  max-width: 1500px;
+  height: 6px;
+  background: #002d64;
+  position: absolute;
+  bottom: 0;
+  animation: indicating 7s ease infinite; 
+}
+
+@keyframes indicating{
+  from{
+      left: -100%;
+  }
+  to{
+      left: 0;
+  }
+}  
